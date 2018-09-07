@@ -1,6 +1,8 @@
 {
     "name": "trafficsupply/sessions",
     "description": "Sync sessions across multiple domains with a unique session key",
+    "homepage": "https://github.com/TrafficSupply/Sessions",
+    "keywords": ["multidomain", "session", "sharing"],
     "license": "MIT",
     "authors": [
         {
