@@ -1,0 +1,27 @@
+{
+    "name": "trafficsupply/sessions",
+    "description": "Sync sessions across multiple domains with a unique session key",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Douwe de Haan",
+            "email": "douwe@trafficsupply.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "webpatser/laravel-uuid": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TrafficSupply\\Sessions\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TrafficSupply\\Sessions\\ServiceProvider"
+            ]
+        }
+    }
+}
